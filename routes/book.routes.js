@@ -5,7 +5,7 @@ const bookRouter = express.Router();
 
 
 
-
+//get
 bookRouter.get("/",async(req,res)=>{
     try {
         const { sort,genre } = req.query;
